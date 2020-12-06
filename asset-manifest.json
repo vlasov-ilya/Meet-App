@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/vlasov-ilya/Meet-App.git/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/vlasov-ilya/Meet-App.git/static/js/main.7978934c.chunk.js",
+    "main.js.map": "/vlasov-ilya/Meet-App.git/static/js/main.7978934c.chunk.js.map",
+    "runtime-main.js": "/vlasov-ilya/Meet-App.git/static/js/runtime-main.db687fa3.js",
+    "runtime-main.js.map": "/vlasov-ilya/Meet-App.git/static/js/runtime-main.db687fa3.js.map",
+    "static/js/2.b530637e.chunk.js": "/vlasov-ilya/Meet-App.git/static/js/2.b530637e.chunk.js",
+    "static/js/2.b530637e.chunk.js.map": "/vlasov-ilya/Meet-App.git/static/js/2.b530637e.chunk.js.map",
+    "static/js/3.804e1fe4.chunk.js": "/vlasov-ilya/Meet-App.git/static/js/3.804e1fe4.chunk.js",
+    "static/js/3.804e1fe4.chunk.js.map": "/vlasov-ilya/Meet-App.git/static/js/3.804e1fe4.chunk.js.map",
+    "index.html": "/vlasov-ilya/Meet-App.git/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/vlasov-ilya/Meet-App.git/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.b530637e.chunk.js.LICENSE.txt": "/vlasov-ilya/Meet-App.git/static/js/2.b530637e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/vlasov-ilya/Meet-App.git/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db687fa3.js",
+    "static/js/2.b530637e.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.7978934c.chunk.js"
+  ]
+}
