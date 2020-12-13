@@ -15,10 +15,10 @@ class Event extends Component {
   }
   
   render () {
-   const showDetails = this.state.showDetails
-   const { event } = this.props; 
+    const showDetails = this.state.showDetails
+    const { event } = this.props; 
 
-   return (
+  return (
     <div className='event'>
       <div className='event-overview'>
         <h2 className='summary'>{event.summary}</h2>
@@ -28,16 +28,16 @@ class Event extends Component {
         {showDetails && <button className='details-btn' onClick={this.handleShowDetails}>Hide Event Details</button>}
       </div>
       
-     {showDetails &&
+      {showDetails &&
       <div className='event-details'>
-       <p className='description'>{event.description}</p>
-       <p className='end-time'>{event.end.dateTime}</p>
-       <p className='time-zone'>{event.start.timeZone}</p>
-       <p className='organizer-email'>{event.organizer.email}</p>
+        <p className='description'>{event.description}</p>
+        <p className='end-time'>{event.end.dateTime}</p>
+        <p className='time-zone'>{event.start.timeZone}</p>
+        <p className='organizer-email'>{event.organizer.email}</p>
       </div>
     }
   </div>
   )
- }
+  }
 }
 export default Event;

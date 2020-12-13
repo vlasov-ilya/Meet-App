@@ -54,9 +54,9 @@ describe('<Event /> component', () => {
 
   test('render the event element', () => {
     expect(EventWrapper.find('.event')).toHaveLength(1);
-  });
+  })
 
-  test('render the exebt overview div', () => {
+  test('render the event overview div', () => {
     expect(EventWrapper.find('.event-overview')).toHaveLength(1);
   });
 
@@ -64,6 +64,7 @@ describe('<Event /> component', () => {
     expect(EventWrapper.find('.event-overview').children()).toHaveLength(4);
   });
 
+ 
   test('render the event details div', () => {
     EventWrapper.setState({ showDetails: true });
     expect(EventWrapper.find('.event-details')).toHaveLength(1);
@@ -73,9 +74,24 @@ describe('<Event /> component', () => {
     EventWrapper.setState({ showDetails: true });
     expect(EventWrapper.find('.event-details').children()).toHaveLength(4);
   });
+  
+  // test('render the event summary', () => {
+  //   expect(EventWrapper.find('.summary')).toHaveLength(1);
+  // });
+
+  // test('render the event description', () => {
+  //   expect(EventWrapper.find('.description)).toHaveLength(1);
+  // })
+
 
   test('render show/hide details button', () => {
     expect(EventWrapper.find('.details-btn')).toHaveLength(1);
+  });
+  
+  test('click on "show details" button shows event details', () => {
+    EventWrapper.setState({ showDetails: false});
+    EventWrapper.find('.details-btn').simulate('click');
+    expect(EventWrapper.state('showDetails')).toBe(true)
   });
 
   test('click on "hide details" button hides event details', () => {
@@ -83,4 +99,5 @@ describe('<Event /> component', () => {
     EventWrapper.find('.details-btn').simulate('click');
     expect(EventWrapper.state('showDetails')).toBe(false)
   });
+
 });
