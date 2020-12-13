@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vlasov-ilya/Meet-App.git/static/css/main.3965dd1c.chunk.css",
-    "main.js": "/vlasov-ilya/Meet-App.git/static/js/main.459e5653.chunk.js",
-    "main.js.map": "/vlasov-ilya/Meet-App.git/static/js/main.459e5653.chunk.js.map",
+    "main.js": "/vlasov-ilya/Meet-App.git/static/js/main.3dee2c5c.chunk.js",
+    "main.js.map": "/vlasov-ilya/Meet-App.git/static/js/main.3dee2c5c.chunk.js.map",
     "runtime-main.js": "/vlasov-ilya/Meet-App.git/static/js/runtime-main.b9aaa5f8.js",
     "runtime-main.js.map": "/vlasov-ilya/Meet-App.git/static/js/runtime-main.b9aaa5f8.js.map",
     "static/js/2.03dd66ce.chunk.js": "/vlasov-ilya/Meet-App.git/static/js/2.03dd66ce.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b9aaa5f8.js",
     "static/js/2.03dd66ce.chunk.js",
     "static/css/main.3965dd1c.chunk.css",
-    "static/js/main.459e5653.chunk.js"
+    "static/js/main.3dee2c5c.chunk.js"
   ]
 }
