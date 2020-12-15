@@ -1,6 +1,5 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
-
 import App from "../App";
 import EventList from "../EventList";
 import CitySearch from "../CitySearch";
@@ -91,6 +90,6 @@ test("change list of events after user updates number", () => {
   const eventObject = { target: { value: 1 } };
   NumberOfEventsWrapper.find(".event-number").simulate("change", eventObject);
   expect(NumberOfEventsWrapper.state("numberOfEvents")).toBe(1);
-  // expect(AppWrapper.instance().updateEvents).toHaveBeenCalledWith(null, 1);
+  expect(AppWrapper.instance().updateEvents).toHaveBeenCalledWith(null, 1);
   AppWrapper.unmount();
 });

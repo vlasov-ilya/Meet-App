@@ -75,14 +75,6 @@ describe('<Event /> component', () => {
     expect(EventWrapper.find('.event-details').children()).toHaveLength(4);
   });
   
-  // test('render the event summary', () => {
-  //   expect(EventWrapper.find('.summary')).toHaveLength(1);
-  // });
-
-  // test('render the event description', () => {
-  //   expect(EventWrapper.find('.description)).toHaveLength(1);
-  // })
-
 
   test('render show/hide details button', () => {
     expect(EventWrapper.find('.details-btn')).toHaveLength(1);
