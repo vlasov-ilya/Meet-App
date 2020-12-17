@@ -5,23 +5,5 @@
   "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vlasov-ilya/Meet-App.git"
-  },
-  "keywords": [
-    "Meet",
-    "Event",
-    "Friend"
-  ],
-  "author": "VIV Development <ilyavlasov93@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vlasov-ilya/Meet-App/issues"
-  },
-  "homepage": "https://github.com/vlasov-ilya/Meet-App#readme",
-  "dependencies": {
-    "googleapis": "^59.0.0"
   }
 }
