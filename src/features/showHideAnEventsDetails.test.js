@@ -7,7 +7,7 @@ import { mockData } from "../mock-data";
 const feature = loadFeature("./src/features/showHideAnEventsDetails.feature");
 
 defineFeature(feature, (test) => {
-  test("An event element is collapsed by default", ({
+  test("An event is collapsed by default", ({
     given, and, when, then
   }) => {
     let AppWrapper;
@@ -27,7 +27,7 @@ defineFeature(feature, (test) => {
     });
   });
 
-  test("User can expand an event to see its details", ({
+  test("User can expand an event to see details", ({
     given, and, when, then
   }) => {
     let AppWrapper;
