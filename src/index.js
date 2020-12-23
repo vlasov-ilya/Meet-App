@@ -24,4 +24,5 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitafalls.
 // Learn more about  service workers: https://bit.ly/CRA-PWA
 serviceWorker.register();
+
 atatus.config('b2132561a68140eaa2bf7b539ef481be').install();
